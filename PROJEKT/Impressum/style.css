@@ -1,0 +1,202 @@
+#events,
+#about,
+#team,
+#projects,
+#contact {
+	background-color: rgba(0,0,0,0.75);
+	padding-top: 2em;
+	padding-bottom: 3em;
+	padding-left: 5em;
+	padding-right: 5em;
+	width: 80%;
+	border: 5px;
+	border-style: solid;
+	border-color: rgba(248,248,248,0.50);
+}
+
+
+#footer {
+	width: 100%;
+}
+
+p, label {
+	color: white;
+}
+
+
+h2,
+#events p,
+#about p,
+#team h2 + p,
+#projects h2 + p,
+#contact h2 + p {
+	text-align: center;
+}
+
+#events p {
+	text-align: center;
+}
+
+
+#events button {
+	width: 70%;
+	align-items: left;
+  background-color: #222222; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+	margin-top: 2em;
+	
+}
+
+#events button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* FOOTER SOCIAL MEDIA */
+#footer div > div{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: left;
+	-ms-flex-pack: left;
+	-webkit-justify-content: left;
+	justify-content: left;
+	-webkit-box-align: left;
+	-ms-flex-align: left;
+	-webkit-align-items: left;
+	align-items: center;
+	margin-left: 10%;
+
+}
+
+#footer img{
+	margin-left: 1em;
+}
+/* FOOTER COPYRIGHT*/
+
+#footer div{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: left;
+	-ms-flex-pack: left;
+	-webkit-justify-content: left;
+	justify-content: left;
+	-webkit-box-align: left;
+	-ms-flex-align: left;
+	-webkit-align-items: left;
+	align-items: left;
+	margin-left: 8%;
+}
+
+#footer h3 {
+	margin-left: 11em;
+	margin-top: 1em;
+}
+
+h3{
+	color: white;
+	font-size: 1.35em;
+}
+
+h2{
+	color: white;
+	margin: 0;
+	padding: 0.5em 0;
+	font-size: 3.15em;
+
+}
+
+#about h2,
+#events h2,
+#projects h2,
+#team h2,
+#contact h2,
+#footer h2 {
+	font-size: 3.15em;
+	margin-bottom: 40px;
+}
+
+#team h3{
+	font-size: 2.25em;
+}
+
+p {
+	font-size: 1.8em;
+}
+
+
+
+#team h3, p{
+	text-align: center;
+}
+
+section {
+	margin-bottom: 6em;
+}
+
+
+
+#footer{
+	padding: 1em 0;
+	background: rgba(0,0,0,0.85);
+	border-top: 5px;
+	border-top-color: rgba(248,248,248,0.50);
+	border-top-style: solid;
+}
+
+
+#mainclass {
+	background:#222222 url("../../assets/img/cover6b.jpg") fixed center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+footer h4{
+	color: rgba(71,71,71,1.00);
+	
+}
+
+#impressum a{
+	color: white;
+	font-size: 2em;
+	
+}
+
+
+
+#impressum p{
+	text-align: left;
+	align-content: left;
+	align-items: left;
+}
+
+.rechtsfooter {
+	float: right;
+	margin-left: 5%;
+	max-width: 35%;
+	text-align: right;
+	align-content: right;
+	align-self: right;
+	align-items: right;
+}
+
+.linksfooter{
+		float: left;
+	max-width: 35%;
+	margin-left: 10%;
+	
+}
+
+
+
+
+
+
+
